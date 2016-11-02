@@ -1,0 +1,7 @@
+*.OBJ
+*.MAP
+*.COM
+tasm/*
+debug.com
+nohup.out
+stuff/*
