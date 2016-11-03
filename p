@@ -1,5 +1,5 @@
 clear
-fasm demo.asm demo.com
+fasm mzesolvr.asm mzesolvr.com
 # ls -l demo.com | tr -s " " | cut -d" " -f5
 exit
 echo --
