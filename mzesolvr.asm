@@ -27,6 +27,7 @@
 	inc si
 	cmp si,(24*40 + 39)/8+100H
 	jne .xbyte
+
 ;----------------------------------------------------------------------
 ; Info
 ;
@@ -148,7 +149,6 @@ nextround:
 	mov bh,0
 	mov di,[bx + snakedata]
 	mov al,0
-
 	call plot
 
 ;----------------------------------------------------------------------
@@ -204,13 +204,13 @@ t_dn:	dw CDN,DDN,t_dn  ;    X    -    X    X
 ; Dot data
 
 dottableptr:
-	dw t_lt
+	dw t_up
 
 snakeptr:
 	dw snakedata
 
 dotposition:
-	dw 320*   196 + 138
+	dw 320*   196 + 132
 
 snakedata:
 
