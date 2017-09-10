@@ -1,7 +1,7 @@
 # MZESOLVR
 *Maze Solver*
 A 256-byte MS-DOS demo by ERN0 - 2016.10.03
-Released at xxxxxxx Party, 2017
+Released at Function 2017 party
 
 ## This is also not a 256-byte demo
 

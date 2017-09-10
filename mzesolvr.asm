@@ -1,4 +1,9 @@
-; assembler: fasm
+; mzesolvr.asm - 2016.10.03 - ern0@linkbroker.hu
+; Maze Solver
+; 256 byte intro for MS-DOS (compiler: fasm)
+;
+; This is also not a 256b intro, just something
+; that actually fits in 256 bytes
 
 	org 100H
 ;----------------------------------------------------------------------
