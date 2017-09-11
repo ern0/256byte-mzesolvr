@@ -63,3 +63,5 @@ I've used [FASM](https://flatassembler.net/):
 ### Run
 
 It's pure 80286 code, it can be run in [DOSBox](http://www.dosbox.com/).
+
+<iframe width="640" src="http://linkbroker.hu/stuff/mzesolvr/"></iframe>
